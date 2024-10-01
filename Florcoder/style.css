@@ -1,0 +1,371 @@
+* {
+    box-sizing: border-box;
+    max-width: 1500px;
+    margin: 5px auto;
+}
+
+body {
+    background-color: #fff; 
+    color: #000; 
+}
+
+main {
+    padding: 0; 
+}
+
+h1 {
+    text-align: center; 
+    margin: 20px 0; 
+}
+
+/*ESTILOS NAVBAR*/
+
+nav {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    background-color: #222020; 
+    padding: 10px 20px; 
+}
+
+.logo img {
+    height: 50px; 
+    width: auto; 
+    border: 1,5px solid black; 
+    padding: 2px; 
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    flex-grow: 1; 
+    justify-content: space-around; 
+    align-items: center;
+}
+
+nav a {
+    color: #c2d1d4; 
+    text-decoration: none; 
+    padding: 10px 15px; 
+    transition: color 0.3s; 
+}
+
+nav a:hover {
+    color: #5f3e3e; 
+}
+
+/* img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+} */
+
+/* article {
+    width: 100%;
+    padding: 0; 
+    margin: 0; 
+} */
+
+
+/*ESTILOS MAIN*/
+
+.section__home--product
+
+
+.section__home--product {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+}
+
+.section__home--product img {
+    width: 1800px;
+    height: 1000px;
+    margin: 0;
+}
+
+
+
+
+
+/*ESTILO DE ALL*/
+
+.section__all {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+}
+
+.section__all--product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    width: 200px;
+    gap: 20px;
+}
+
+.section__all--product img {
+    width: 200px;
+    height: 200px;
+    margin: 0;
+}
+
+.section__all--product button {
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #5f3e3e;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add-to-cart-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #5f3e3e;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .section__all--product {
+        width: 150px; 
+    }
+
+    .section__all--product img {
+        max-width: 100%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .section__all--product {
+        width: 100%; 
+    }
+}
+
+
+/*ESTILOS OUTERWEAR*/
+
+.section__outerwear {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+}
+
+.section__outerwear--product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    width: 200px;
+    gap: 20px;
+}
+
+.section__outerwear--product img {
+    width: 200px;
+    height: 200px;
+    margin: 0;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .section__outerwear--product {
+        width: 150px; 
+    }
+
+    .section__outerwear--product img {
+        max-width: 100%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .section__outerwear--product {
+        width: 100%; /
+    }
+}
+
+.section__all--product button {
+
+}
+
+/*ESTILOS COLLECTION*/
+
+.section__collection {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+}
+
+.section__collection--product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    width: 200px;
+    gap: 20px;
+}
+
+.section__collection--product img {
+    width: 250px;
+    height: 400px;
+    margin: 0;
+}
+
+
+.section__all--product button {
+
+
+        margin-top: 20px; 
+        margin-bottom: 20px;
+        padding: 10px 20px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    .add-to-cart-button {
+        margin-top: 10px;
+        padding: 10px 20px;
+        background-color: #5f3e3e;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+    } 
+
+    /* Media Queries */
+@media (max-width: 768px) {
+    .section__collection--product {
+        width: 150px; 
+    }
+
+    .section__collection--product img {
+        max-width: 100%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .section__collection--product {
+        width: 100%; 
+    }
+}
+
+
+/*ESTILOS ACCESSORY*/
+
+
+.section__accessory {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+}
+
+.section__accessory--product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    width: 200px;
+    gap: 20px;
+}
+
+.section__accessory--product img {
+    width: 200px;
+    height: 200px;
+    margin: 0;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .section__accessory--product {
+        width: 150px; 
+    }
+
+    .section__accessory--product img {
+        max-width: 100%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .section__accessory--product {
+        width: 100%; 
+    }
+}
+
+
+.section__all--product button {
+
+}
+
+
+/*ESTILOS FOOTER*/
+
+footer {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    padding: 20px;
+    background-color: #222020; 
+    color: #c2b9b9; 
+}
+
+.map-container {
+    width: 200px; 
+    height: 200px; 
+}
+
+.map-container iframe {
+    width: 100%; 
+    height: 100%;
+    border: 0; 
+}
+
+footer p {
+    max-width: 70%; 
+    margin: 0;
+    padding-right: 20px; 
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    align-items: flex-end; 
+}
+
+.social-links a {
+    text-decoration: none; 
+    color: #817e7e; 
+    font-size: 16px; 
+}
+
+.social-links a:hover {
+    color: #c2b9b9; 
+}
+
