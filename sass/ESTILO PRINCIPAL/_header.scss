@@ -1,0 +1,38 @@
+/*ESTILOS NAVBAR*/
+
+nav {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    background-color: #222020; 
+    padding: 10px 20px; 
+}
+
+.logo img {
+    height: 50px; 
+    width: auto; 
+    border: 1,5px solid black; 
+    padding: 2px; 
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    flex-grow: 1; 
+    justify-content: space-around; 
+    align-items: center;
+}
+
+nav a {
+    color: #c2d1d4; 
+    text-decoration: none; 
+    padding: 10px 15px; 
+    transition: color 0.3s; 
+}
+
+nav a:hover {
+    color: #5f3e3e; 
+}
